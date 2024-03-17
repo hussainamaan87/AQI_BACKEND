@@ -142,5 +142,5 @@ connectDB()
 		console.log("MONGO db connection failed !!! ", err);
 	});
 
-    cron.schedule('*/5 * * * * *', performTask);
+    cron.schedule('*/30 * * * *', performTask);
 
